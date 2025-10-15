@@ -1,0 +1,12 @@
+.mensaje-correcto{
+
+    background-color: lightgreen;
+    color: darkgreen;
+
+}
+
+.mensaje-error{
+
+    background-color: lightcoral;
+    color:  darkred;
+}
