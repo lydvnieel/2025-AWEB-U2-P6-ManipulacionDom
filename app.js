@@ -10,13 +10,15 @@ btnCalcular.addEventListener('click',
     if (valor <= 0 || valor == "") {
         inputResultado.textContent = "Error: Tienes que ingresar un número positivo";
         inputResultado.className = "mensaje-error";
+
+        
  
     } else {
         const area = valor * valor;
         inputResultado.textContent = `El área del cuadrado es: ${area}`;
-        inputResultado.className = ".mensaje-correcto";
+        inputResultado.className = "mensaje-correcto";
+     }
     }
-}
 
 
 );
